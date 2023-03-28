@@ -1,4 +1,5 @@
 import React from 'react'
+import Service_card from '../../Components/Services/Service_card'
 
 export default function Services() {
 
@@ -19,24 +20,35 @@ export default function Services() {
         },
         {
             title: "Hair extensions",
-            description: " If you're looking for longer, fuller hair, our hair extension services may be just what you need. We use high-quality, natural-looking extensions to add length and volume to your hair, giving you the look you've always wanted."
+            description: "If you're looking for longer, fuller hair, our hair extension services may be just what you need. We use high-quality, natural-looking extensions to add length and volume to your hair, giving you the look you've always wanted."
         },
         {
             title: "Eyelash extensions",
-            description:""
-
+            description:"Enhance your natural beauty with our eyelash extensions! Our experienced lash artists use high-quality lashes to create a custom look that's perfect for you. Whether you want a subtle enhancement or a dramatic flair, we can help you achieve the look you desire."
         },
         {
-            title: "Nail services"
+            title: "Nail services",
+            description: "Our nail services are designed to pamper and beautify your hands and feet, leaving them feeling soft, smooth, and polished. Our skilled technicians are passionate about providing you with the best nail care experience possible, using high-quality products and tools to ensure your satisfaction. "
         },
         {
-            title: "Haircuts and styling"
+            title: "Waxing Services",
+            description:"Looking for silky smooth skin that lasts longer than shaving? Our waxing services have got you covered! Our experienced and licensed estheticians use high-quality wax to remove hair from the root, leaving your skin hair-free and smooth for weeks."
         }
         
     ]
 
   return (
     <div>
+        {
+            services.map((service) =>{
+                return(
+                    <Service_card service = {service}/>
+                )
+            }
+               
+            )
+        }
+
 
     </div>
   )
