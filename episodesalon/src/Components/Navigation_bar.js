@@ -8,13 +8,31 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 
 import './Navigation_bar.styles.scss'
 
-import React from 'react'
+import React,{useEffect,useState} from 'react'
 
 import Logo from "../Assests/logo.png"
 
 export default function Navigation_bar() {
+  const [navbarBg, setNavbarBg] = useState('transparent');
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 100) {
+        setNavbarBg('dark');
+      } else {
+        setNavbarBg('transparent');
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
-          <Navbar bg="dark" variant="dark" expand="lg">
+      <Navbar bg={navbarBg}  sticky="top" variant="dark" className='.nav-bar-color'  expand="lg">
       <Container>
         <Navbar.Brand href="#home">
           <img src={Logo} width="50%" height="50%" className="logo" />
@@ -22,11 +40,11 @@ export default function Navigation_bar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className = "justify-content-end">
           <Nav className="me-auto ">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#home">About</Nav.Link>
-            <Nav.Link href="#home">Services</Nav.Link>
-            <Nav.Link href="#link">Appointment</Nav.Link>
-            <Nav.Link href="#link">Contact</Nav.Link>
+            <Nav.Link style={{ color: "white" }} href="#home">Home</Nav.Link>
+            <Nav.Link style={{ color: "white" }} href="#home">About</Nav.Link>
+            <Nav.Link style={{ color: "white" }} href="#home">Services</Nav.Link>
+            <Nav.Link style={{ color: "white" }} href="#link">Appointment</Nav.Link>
+            <Nav.Link style={{ color: "white" }} href="#link">Contact</Nav.Link>
             <NavDropdown title="Dropdown" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
