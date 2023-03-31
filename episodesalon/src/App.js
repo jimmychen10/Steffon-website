@@ -1,9 +1,10 @@
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 import Navigation_bar from './Components/Navigation_bar';
 import Hero from './Sections/Hero/Hero';
 import Forms from './Sections/Forms/Forms';
 import Footer from './Components/Footer/Footer';
+import AboutMe from './Sections/AboutMe/AboutMe' 
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
         <Navigation_bar />
         <Hero />
       </div>
-
+      <AboutMe/>
       <Forms/>
       <Footer/>
     </div>

@@ -4,4 +4,11 @@
   background-size: cover ;
     background-repeat: no-repeat;
   height: 75vh;
+
+}
+
+.App{
+  & *{
+    background-color:#cbbdb2ff;
+  }
 }

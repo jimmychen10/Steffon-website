@@ -27,10 +27,6 @@ export default function Services() {
             description:"Enhance your natural beauty with our eyelash extensions! Our experienced lash artists use high-quality lashes to create a custom look that's perfect for you. Whether you want a subtle enhancement or a dramatic flair, we can help you achieve the look you desire."
         },
         {
-            title: "Nail services",
-            description: "Our nail services are designed to pamper and beautify your hands and feet, leaving them feeling soft, smooth, and polished. Our skilled technicians are passionate about providing you with the best nail care experience possible, using high-quality products and tools to ensure your satisfaction. "
-        },
-        {
             title: "Waxing Services",
             description:"Looking for silky smooth skin that lasts longer than shaving? Our waxing services have got you covered! Our experienced and licensed estheticians use high-quality wax to remove hair from the root, leaving your skin hair-free and smooth for weeks."
         }
