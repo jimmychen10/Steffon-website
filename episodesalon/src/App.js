@@ -5,6 +5,8 @@ import Hero from './Sections/Hero/Hero';
 import Forms from './Sections/Forms/Forms';
 import Footer from './Components/Footer/Footer';
 import AboutMe from './Sections/AboutMe/AboutMe' 
+import Services from './Sections/Services/Services';
+
 
 function App() {
   return (
@@ -13,7 +15,9 @@ function App() {
         <Navigation_bar />
         <Hero />
       </div>
+
       <AboutMe/>
+      <Services/>
       <Forms/>
       <Footer/>
     </div>
