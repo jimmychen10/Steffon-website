@@ -1,9 +1,52 @@
 .hero_section {
+
+  p{
+    font-size: 20px;
+    font-family: sans-serif;
+  }
+  
+  .opening{
+    // height: 380px;
+    padding-top: 130px;
+    align-items: center;
+    
+
+    
+  }
+
+  img{
+    margin-top: 60px;
+    height: 502px;
+  }
+  h1{
+    font-size: 72px;
+    font-family: linotype;
+    font-style: italic;
+  }
+
+  .button{
+    width: 204px;
+    height: 45px;
+    
+    background-color: rgb(191, 151, 101);
+    border: none;
+    border-radius: 100px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 45px;
+    color: aliceblue;
+
+    font-family: sans-serif;
+    margin: 0px auto;
+  }
+
+    height: 935px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 8%;
+    // margin-top: 8%;
+
     background-color: aqua;
-  }
+}
   

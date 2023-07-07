@@ -8,8 +8,8 @@ export default function Service_card(props) {
   return (
     <div id = {id} className="service-card-container" >
         <img src={icon}/>
-        <h2>{title}</h2>
-        <p>{description}</p>
+        <h3>{title}</h3>
+        <p className='temp'>{description}</p>
     </div>
   )
 }

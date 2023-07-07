@@ -1,0 +1,104 @@
+// .logo{
+//     height:100%;
+// }
+
+// .nav-bar-color{
+//     background-color: #a0a097;
+//     color: aliceblue;
+// }
+// .nav-bar-link{
+//     color: aliceblue;
+    
+// }
+
+// .navbar{
+//     display: flex;
+//     justify-content: center;
+//     list-style-type: none;
+// }
+
+
+
+
+// .navbar {
+//   display: flex;
+//     // display: grid;
+//     // grid-template-columns: repeat(4, 1fr);
+//     // list-style-type: none;
+//     // padding: 0;
+//     // background-color: #f1f1f1;
+//     align-items: center;
+    
+
+
+
+   li {
+    text-align: center;
+  }
+  
+  .navbar li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .navbar li a:hover {
+    background-color: #ddd;
+  }
+// }
+.navbar{
+  width: 100%;
+  
+  
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+
+  .title{
+    display: flex;
+    justify-content: center;
+    max-width: 100%; /* Ensure the image doesn't exceed the container's width */
+    
+    .titlepie{ 
+
+      display: block;
+      max-width: 100%; /* Ensure the image doesn't exceed the container's width */
+      max-height: 100%; /* Ensure the image doesn't exceed the container's height */
+      margin: 0% auto;
+      width: 203px;
+
+    }
+
+  }
+  ul{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social_icon{
+    height: 20px;
+  }
+
+  li{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+
+  .navigation_items_seciton{
+    width: 65%;
+  }
+
+  .line {
+    width: 65%;
+    height: 1px;
+    background-color: black;
+    border-radius: 2%;
+    margin: 0% auto;
+  }
+
+
+}
+

@@ -23,7 +23,7 @@ export default function AboutMe() {
   return (
     <div className='.aboutme'  >
 
-    <Box sx={{  width:"100%"}}>
+    {/* <Box sx={{  width:"100%"}}>
       <Grid container spacing={2}    alignItems="center" justifyContent="center" >
         <Grid item xs={12} sm={3} >
           <Item sx ={{ minHeight: '358px', minWidth:'285px', maxHeight:'600px', maxWidth:'400px'}}>
@@ -42,7 +42,7 @@ export default function AboutMe() {
           </Item>
         </Grid>
       </Grid>
-    </Box>
+    </Box> */}
 
 {/* 
         <h1>About us</h1>
