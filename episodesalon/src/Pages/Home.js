@@ -12,6 +12,11 @@ import Services from '../Sections/Services/Services';
 
 import Navigation_bar from '../Components/NavBar/Navigation_bar.js'
 
+import Team from '../Components/Team/team'
+
+import Salon from '../Components/Salon/SalonInfo'
+
+import Subscribe from '../Components/Subscribe/subscribe'
 
 export default function Home() {
   return (
@@ -20,7 +25,10 @@ export default function Home() {
       <div className='background-image'>
         <Navigation_bar />
         <Hero />
-        <Services/>
+        <Services />
+        <Team />
+        <Salon />
+        <Subscribe/>
       </div>
 
       <AboutMe/>
