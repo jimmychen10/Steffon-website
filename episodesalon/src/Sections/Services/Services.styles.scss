@@ -24,4 +24,23 @@
     font-family: sans-serif;
     width: 665px;
     text-align: center;
+
+}
+
+.service{
+    display: flex;
+    flex-direction: column;
+    
+    .button{
+        margin: 0px auto;
+        border:5px solid black ;
+        border-radius: 5px;
+        width: 142px;
+        height: 40px;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 30px;
+
+    }
+
 }

@@ -7,7 +7,7 @@ export default function Service_card(props) {
     const { icon,title, description} = props.service;
   return (
     <div id = {id} className="service-card-container" >
-        <img src={icon}/>
+        <img className='' src={icon} />
         <h3>{title}</h3>
         <p className='temp'>{description}</p>
     </div>
