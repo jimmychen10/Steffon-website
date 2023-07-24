@@ -7,7 +7,9 @@ import Footer from './Components/Footer/Footer';
 import AboutMe from './Sections/AboutMe/AboutMe' 
 import Services from './Sections/Services/Services';
 
+// Pages
 import Home from "./Pages/Home.js"
+import About from "./Pages/About.js"
 
 
 
@@ -22,7 +24,9 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* <Route path="/about" element={<About />} /> */}
+        <Route path="/Home" element={<Home />} />
+
+        <Route path="/about" element={<About />} />
       </Routes>
     </Router>
   );

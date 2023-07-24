@@ -18,6 +18,8 @@ import SnapChat from "../../Assests/Social Media Icons/snapchat.png"
 import TikTok from "../../Assests/Social Media Icons/tiktok.png"
 import Twitter from "../../Assests/Social Media Icons/twitter.png"
 
+import {Link} from 'react-router-dom'
+
 export default function Navigation_bar() {
   const [navbarBg, setNavbarBg] = useState('transparent');
   const [activeTab, setActiveTab] = useState('home');
@@ -54,17 +56,11 @@ export default function Navigation_bar() {
       <nav className="navbar">
 
       <ul >
-        <li
-          className={`nav-item ${activeTab === 'home' ? 'active' : ''}`}
-          onClick={() => handleTabClick('home')}
-        >
-          Home
+        <li        >
+        <Link to="/Home"> Home</Link>
         </li>
-        <li
-          className={`nav-item ${activeTab === 'about' ? 'active' : ''}`}
-          onClick={() => handleTabClick('about')}
-        >
-          About
+        <li>
+          <Link to="/About"> About</Link>
         </li>
         <li
           className={`nav-item ${activeTab === 'services' ? 'active' : ''}`}

@@ -7,6 +7,7 @@ import Tools from "../../Assests/Tools.png"
 import Wax from "../../Assests/Wax.png"
 import Chair from "../../Assests/Chair.png"
 import Eyelash from "../../Assests/Eyelash.png"
+import { BrowserRouter, Route, Link } from "react-router-dom";
 
 import "./Services.styles.scss"
 
@@ -45,6 +46,9 @@ export default function Services() {
           <Service_card key={index} service={service} />
         ))}
         </div>
+      
+        <div className='button'><Link to="/"  >Other Services</Link></div>
+          
     </div>
   );
 }
