@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function SalonInfo() {
   return (
-    <div className='container px-20 lg:px-72'>
-      <div className='grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-10'>    
+    <div className='container px-20 lg:px-70'>
+      <div className='grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-10  pt-8'>    
         <div className="">
           <div className='subcard pb-4 futuraFont'>
             <h1 className='pb-4 didotFont text-3xl italic'>Address</h1>
@@ -12,8 +12,12 @@ export default function SalonInfo() {
           </div>
           <div className='subcard pb-4 futuraFont'>
             <h1 className='pb-4 didotFont text-3xl italic'>Opening Hours</h1>
-            <div className='leading-8'>
-              <p>Tues - Fri 10:00 am – 8:00 pm</p>
+            <div className='leading-10'>
+            <div class="flex items-center ">
+              <p class=" font-semibold">Tues - Fri</p>
+              <p class="text-gray-600 ml-4 ">10:00 am – 8:00 pm</p>
+              <div></div>
+            </div>
               <p>Sat - Sun 9:30 am – 7:30 pm</p>
               <p>Monday Closed</p>
             </div>

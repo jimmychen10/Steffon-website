@@ -1,5 +1,11 @@
 import './Team.scss'
 
+import Christy from "../../Assests/Christy_Photo_-removebg-preview.png"
+import Steffon from "../../Assests/SteffonV2-removebg-preview.png"
+import Onlei from "../../Assests/Onlei_Choi-removebg-preview (1).png"
+
+import React from 'react'
+
 export default function Team() {
     return (
         <div className="pt-20 teamTitle">
@@ -28,7 +34,7 @@ export default function Team() {
                             </p>
                         </div>
                         <div className="card">
-                            <img className="mx-auto" src="Steffon.png" />
+                            <img className="mx-auto" src="SteffonV2-removebg-preview(2).png" />
                             <h2 className='creating-gap futuraFont'>Master Hair Stylist</h2>
                             <h2 className="didotFont text-xl italic pt-2">Steffon</h2>
                             <p className='creating-gap futuraFont'>Introducing Steffon, our master hair stylist with 25+ years of experience. He specializes

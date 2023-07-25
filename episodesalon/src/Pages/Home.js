@@ -28,8 +28,8 @@ export default function Home() {
         <Team />
         <Salon />
         <Subscribe/>
-        <Services/>
-        <MeetTheTeam/>
+
+        {/* <MeetTheTeam/> */}
       </div>
 
       <AboutMe/>

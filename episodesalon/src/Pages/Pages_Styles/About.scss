@@ -13,6 +13,9 @@
         text-align: center;
 
     }
+    hr{
+        height: 30px;
+    }
     
     h2{
 
@@ -20,6 +23,23 @@
         font-family: linotype;
         font-style: italic;
         text-align: center;
+    }
+    .image-container {
+        margin: 0 auto;
+        position: relative;
+        width: 100%; /* Set the desired width */
+        max-width: 1500px;
+        height: 575px;
+        overflow: hidden; /* Ensure the image does not overflow the container */
+    }
+    
+    .image-container img {
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 50%; /* Shift the image down by 50% of the container's height */
+        left: 50%; /* Center the image horizontally */
+        transform: translate(-50%, -50%); 
     }
     
 }
