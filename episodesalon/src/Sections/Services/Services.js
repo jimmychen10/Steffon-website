@@ -15,13 +15,13 @@ export default function Services() {
   const services = [
     {
       icon: Hair,
-      title: 'Haircuts and styling',
+      title: 'Haircuts & Styling',
       description:
         'Our experienced stylists will work with you to create a haircut and style that enhances your natural features and fits your unique style. Whether you want a classic cut or a trendy new look, we have the expertise to make it happen',
     },
     {
       icon: HairColor,
-      title: 'Hair coloring and highlights',
+      title: 'Coloring and Highlights',
       description:
         "Want to switch up your hair color? Our salon offers a variety of hair coloring and highlighting services to help you achieve the perfect shade. From bold and bright to natural and subtle, we'll work with you to create a customized look that flatters your skin tone and brings out your best features.",
     },
@@ -29,7 +29,7 @@ export default function Services() {
       icon: Tools,
       title: 'Hair Treatments',
       description:
-        "Want to switch up your hair color? Our salon offers a variety of hair coloring and highlighting services to help you achieve the perfect shade. From bold and bright to natural and subtle, we'll work with you to create a customized look that flatters your skin tone and brings out your best features.",
+        "Unlock Your Confidence: Embrace a Hair Transformation That Commands Attention and Become the Center of Envy with Revitalized Locks Radiating Renewed Confidence, Ushering You into a New Chapter of Unforgettable Beauty.",
     },
 
   ];

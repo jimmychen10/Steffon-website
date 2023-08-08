@@ -62,30 +62,19 @@ export default function Navigation_bar() {
         <li>
           <Link to="/About"> About</Link>
         </li>
-        <li
-          className={`nav-item ${activeTab === 'services' ? 'active' : ''}`}
-          onClick={() => handleTabClick('services')}
-        >
-          Services
+        <li>
+          <Link to="/Appointment"> Appointment</Link>
         </li>
-        <li
-          className={`nav-item ${activeTab === 'appointment' ? 'active' : ''}`}
-          onClick={() => handleTabClick('appointment')}
-        >
-          Appointment
+        <li>
+          <Link to="/Services"> Services</Link>
         </li>
-        <li
-          className={`nav-item ${activeTab === 'team' ? 'active' : ''}`}
-          onClick={() => handleTabClick('team')}
-        >
-          Our Team
+        <li>
+          <Link to="/Our Team"> Our Team</Link>
         </li>
-        <li
-          className={`nav-item ${activeTab === 'policies' ? 'active' : ''}`}
-          onClick={() => handleTabClick('policies')}
-        >
-          Policies
+        <li>
+          <Link to="/Policies"> Policies</Link>
         </li>
+
       </ul>
       
       <ul>

@@ -7,8 +7,10 @@
 }
 
 .service{
+    margin: 15px 0px;
     padding-top: 60px;
     width: auto;
+    background-color: #F7F7F7;
     h2{
         font-size: 56px;
         font-family: linotype;
@@ -32,7 +34,8 @@
     flex-direction: column;
     
     .button{
-        margin: 0px auto;
+        font-style: bold;
+        margin: 15px auto;
         border:5px solid black ;
         border-radius: 5px;
         width: 142px;

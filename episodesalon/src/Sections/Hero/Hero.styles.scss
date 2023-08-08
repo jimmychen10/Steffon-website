@@ -1,15 +1,21 @@
 .hero_section {
+  background-color: #F7F7F7;
 
   p{
     font-size: 20px;
     font-family: sans-serif;
+    
   }
   
   .opening{
     // height: 380px;
-    padding-top: 130px;
+    // padding-top: 130px;
     align-items: center;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    height: 200px;
 
     
   }
@@ -38,6 +44,14 @@
 
     font-family: sans-serif;
     margin: 0px auto;
+    letter-spacing: 2px;
+
+    display: flex; /* Add flex display */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    span {
+      margin-left: 4px; /* Add spacing between text and arrow */
+    }
   }
 
     height: 935px;
@@ -46,7 +60,5 @@
     justify-content: center;
     align-items: center;
     // margin-top: 8%;
-
-    background-color: aqua;
 }
   

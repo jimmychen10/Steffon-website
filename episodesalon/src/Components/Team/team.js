@@ -20,8 +20,8 @@ export default function Team() {
             </div>
             <div className='px-20 container '>
                 <div className="pt-10 py-10 flex justify-center">
-                    <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-20">
-                        <div className="card">
+                    <div className="flex justify-around gap-20 max-w-400">
+                        <div className="card min-w-400">
                             <img className="mx-auto" src="Christy.png" />
                             <h2 className='creating-gap futuraFont'>Hair Stylist</h2>
                             <h2 className="didotFont text-xl italic pt-2">Christy</h2>

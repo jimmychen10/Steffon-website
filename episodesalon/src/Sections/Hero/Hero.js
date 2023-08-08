@@ -14,7 +14,7 @@ export default function Hero() {
     <div className='opening'>
       <h1>EpisodeSalon</h1>
       <p>Experience the ultimate in hair care and styling.</p>
-      <div className='button' ><Link to="/">Appointment</Link></div>
+      <div className='button' ><Link to="/">Appointment <span>→</span></Link></div>
     </div>
    
       <img src = {Banner} />

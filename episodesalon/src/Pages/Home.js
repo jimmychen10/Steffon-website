@@ -13,6 +13,8 @@ import Navigation_bar from '../Components/NavBar/Navigation_bar.js'
 
 import Team from '../Components/Team/team'
 
+import Contact from '../Components/Contact/Contact.js'
+
 import Salon from '../Components/Salon/SalonInfo'
 
 import Subscribe from '../Components/Subscribe/subscribe'
@@ -26,6 +28,8 @@ export default function Home() {
         <Hero />
         <Services />
         <Team />
+        {/* <MeetTheTeam/> */}
+        <Contact />
         <Salon />
         <Subscribe/>
 

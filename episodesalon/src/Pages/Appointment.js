@@ -1,20 +1,14 @@
-import React from 'react'
-import Navigation_bar from '../Components/NavBar/Navigation_bar'
-import SalonInfo from '../Components/Salon/SalonInfo'
+import React from 'react';
+import Navigation_bar from '../Components/NavBar/Navigation_bar';
+import SalonInfo from '../Components/Salon/SalonInfo';
+import AppointmentSection from '../Components/AppointmentSection/AppointmentSection.js'; // Import the new component
 
-export default function Appointment() {
+export default function App() {
   return (
     <div>
-    <Navigation_bar />
-        <div>
-            <h2>Appointment</h2>
-            
-            
-
-        </div>
-        <Salon />
+      <Navigation_bar />
+      <AppointmentSection /> 
+      <SalonInfo />
     </div>
-
-
-  )
+  );
 }
