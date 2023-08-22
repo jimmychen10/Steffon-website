@@ -34,6 +34,7 @@ export default function Contact() {
       {/* Left side with the image */}
       <div className="contact-image">
         <img src={FlowersImage} alt="Flowers" />
+        <div class="centered"> <h2>Contact Us</h2></div>
       </div>
 
       {/* Right side with the contact details and form */}
@@ -43,7 +44,7 @@ export default function Contact() {
           <div className="contact-info">
             <p>steffon639@gmail.com</p>
             {/* <div className="vertical-line"></div> */}
-            <p>Phone: 415-641-1138</p>
+            <p className='ml-4'> 415-641-1138</p>
           </div>
         </div>
         <div className={`contact-form ${'mobile-friendly'}`}>
@@ -77,16 +78,16 @@ export default function Contact() {
           </Form>
         </div>
         <div className="social-links">
-        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.facebook.com/steffonyhair/" target="_blank" rel="noopener noreferrer">
           Facebook
         </a>
         <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
           Twitter
         </a>
-        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+        <a href="https://twitter.com/SteffonYHair" target="_blank" rel="noopener noreferrer">
           Instagram
         </a>
-        <a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.tiktok.com/@steffonyan?lang=en" target="_blank" rel="noopener noreferrer">
           TikTok
         </a>
       </div>

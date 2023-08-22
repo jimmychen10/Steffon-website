@@ -15,13 +15,13 @@ export default function Team() {
                     <div className='pt-6'>
                         <div className="w-8 h-1 bg-black"></div>
                     </div>
-                    <p className="pt-10 sm:text-sm lg:text-lg">This is your Team section. Briefly introduce the team then add their bios below. Click here to edit</p>
+                    <p className="pt-10 sm:text-sm lg:text-lg">Meet the Experts </p>
                 </div>
             </div>
-            <div className='px-20 container '>
+            <div className='px-20 '>
                 <div className="pt-10 py-10 flex justify-center">
-                    <div className="flex justify-around gap-20 max-w-400">
-                        <div className="card min-w-400">
+                    <div className=" team-container">
+                        <div className="card  ">
                             <img className="mx-auto" src="Christy.png" />
                             <h2 className='creating-gap futuraFont'>Hair Stylist</h2>
                             <h2 className="didotFont text-xl italic pt-2">Christy</h2>
@@ -47,7 +47,7 @@ export default function Team() {
                         <div className="card">
                             <img className="mx-auto" src="Alexa.png" />
                             <h2 className='creating-gap futuraFont'>Product Manager</h2>
-                            <h2 className="didotFont text-xl italic pt-2">Alexa Young</h2>
+                            <h2 className="didotFont text-xl italic pt-2">Onlei</h2>
                             <p className='creating-gap futuraFont'>Meet Onlei, a highly talented stylist with over 29 years of experience in the beauty industry.
                                 Specializing in hair color, haircuts, Brazilian blowouts, keratin treatments, massage, waxing, and updos, Onlei provides top-notch
                                 services to her clients. With her expert knowledge and creativity, she can create customized looks that perfectly complement each

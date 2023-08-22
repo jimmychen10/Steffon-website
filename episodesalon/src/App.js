@@ -24,7 +24,7 @@ function App() {
   // const basename = '/your-base-url';
 
   return (
-    <Router>
+    <Router style={{width:"auto"}}>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Home" element={<Home />} />

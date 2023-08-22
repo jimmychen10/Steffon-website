@@ -2,8 +2,10 @@
     display: flex;
     width: auto;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     flex-direction: row;
-    height: 600px;
+    height: auto;
+    min-height: 600px;
 }
 
 .service{
@@ -20,12 +22,14 @@
 
 }
 
+
 .service_intro{
     margin: 0px auto;
     font-size: 20px;
     font-family: sans-serif;
-    width: 665px;
+    max-width: 665px;
     text-align: center;
+    word-wrap: normal;
 
 }
 

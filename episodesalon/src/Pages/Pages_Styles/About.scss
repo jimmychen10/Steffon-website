@@ -1,9 +1,23 @@
 
 .About{
+
+    .about-content{
+        @media (max-width: 768px) {
+            display: flex;
+            // flex-direction: column;
+            flex-direction: column-reverse;
+        }
+    }
+
     .detail{
         text-align: center;
         width:780px;
         margin: 0px auto;
+        @media (max-width: 768px) {
+            width: 100%; /* Adjust image width for mobile */
+
+          }
+      
     }
     h3{       
          margin: 0px auto;
@@ -31,6 +45,9 @@
         max-width: 1500px;
         height: 575px;
         overflow: hidden; /* Ensure the image does not overflow the container */
+        @media (max-width: 768px) {
+            height: 400px;
+        }
     }
     
     .image-container img {

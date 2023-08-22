@@ -14,10 +14,12 @@ export default function Hero() {
     <div className='opening'>
       <h1>EpisodeSalon</h1>
       <p>Experience the ultimate in hair care and styling.</p>
-      <div className='button' ><Link to="/">Appointment <span>→</span></Link></div>
+      <div className='button' ><Link to="/Appointment">Appointment <span>→</span></Link></div>
     </div>
-   
+    <div className='hero-image-container'>
       <img src = {Banner} />
+    </div>
+
     </div>
   )
 }

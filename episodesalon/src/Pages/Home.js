@@ -31,12 +31,12 @@ export default function Home() {
         {/* <MeetTheTeam/> */}
         <Contact />
         <Salon />
-        <Subscribe/>
+        {/* <Subscribe/> */}
 
         {/* <MeetTheTeam/> */}
       </div>
 
-      <AboutMe/>
+      {/* <AboutMe/> */}
       {/* <Services/>
       <Forms/>
       <Footer/> */}

@@ -61,7 +61,7 @@ export default function Services() {
       </div>
     </div>
 
-    <div className='service_card'>
+    <div className='reverse_service_card'>
     <div className='flower-img-container'>
         <img src={Flower} alt="" />
       </div>

@@ -37,7 +37,7 @@ export default function Services() {
   return (
     <div className='service'>
     <h2>Services</h2> 
-    <p className='service_intro'>Provide a general description of the items below and introduce the services you offer. Click on the text box to edit the content. </p>
+    <p className='service_intro'>Experience the artistry of transformation at our premier hair salon. Our skilled stylists are dedicated to crafting personalized looks that reflect your unique beauty and style. </p>
 
       <div className='service-container'>
 
@@ -47,7 +47,7 @@ export default function Services() {
         ))}
         </div>
       
-        <div className='button'><Link to="/"  >Other Services</Link></div>
+        <div className='button'><Link to="/Services"  >Other Services</Link></div>
           
     </div>
   );

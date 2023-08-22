@@ -16,6 +16,7 @@ export default function About() {
         <h2>Get to Know Us</h2>
         <hr style={{visibility: "hidden"}}/>
 
+        <div className='about-content'>
         <p className='detail pb-5'>
             At Episode Salon, our goal is to provide you with the finest hair care available. Our highly skilled creative team wants you to look and feel your absolute best, so we offer a variety of services to keep your looks just the way you love them. If you’re trying something new and creative or want to maintain your current look, each of the Episode Salon Stylists will give you a look that matches your personality and style. With each color and cut service provided by one of our stylists, a free consultation is offered to ensure that we know exactly what you’re after. In addition to modern cuts, E Salon offers full and partial highlights, all-over color, color correction, umbre color technique, retouch services, keratin treatments, Japanese Straightening, hair extensions, wedding and special occasion updo’s! For your new look call Episode Salon today to book your appointment and meet with one of our exceptional stylists.
             <hr style={{visibility: "hidden"}}/>
@@ -29,8 +30,9 @@ export default function About() {
         <div className='image-container'>
           <img src={Team_pic} alt="" />
         </div>
-
+        </div>
       <SalonInfo/>
+      
         {/* footer */}
     </div>
   )

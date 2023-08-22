@@ -1,8 +1,13 @@
 .service-card-container{
     // height: 300px;
     margin-top:65px ;
-    width: 33.33%;
+    // width: 33.33%;
+    min-width: 350px; /* Added min-width */
+
     max-width: 300px;
+    max-height: 700px;
+    // overflow:scroll;
+    overflow-x: hidden;
 
     h3{
         margin-top: 40px;

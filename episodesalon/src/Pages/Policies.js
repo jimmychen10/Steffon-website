@@ -9,7 +9,7 @@ export default function Policies() {
     <div>
         <Navigation_bar/>
 
-        <h2 style={{padding:"30px"}}>Policies</h2>
+        <h2 style={{padding:"30px"}} className='policies-title'>Policies</h2>
         <div className='policies'>
             <div>
                 <h3>Need to Cancel</h3>
