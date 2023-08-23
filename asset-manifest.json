@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Steffon-website/static/css/main.3518b826.css",
+    "main.js": "/Steffon-website/static/js/main.db58027a.js",
+    "static/js/787.4a15ce18.chunk.js": "/Steffon-website/static/js/787.4a15ce18.chunk.js",
+    "static/media/EPbanner.jpg": "/Steffon-website/static/media/EPbanner.439eb82c5200f91b0173.jpg",
+    "static/media/Episode Group Photo (1).jpg": "/Steffon-website/static/media/Episode Group Photo (1).7fc3d9c245d006def39d.jpg",
+    "static/media/Steffon.png": "/Steffon-website/static/media/Steffon.3ed5959d02f10ebcba4e.png",
+    "static/media/Flowers  (1).jpg": "/Steffon-website/static/media/Flowers  (1).a14a399b29daa24d6dac.jpg",
+    "static/media/Christy_Photo_-removebg-preview.png": "/Steffon-website/static/media/Christy_Photo_-removebg-preview.7230bf2b6ebc1e55092c.png",
+    "static/media/SteffonV2-removebg-preview.png": "/Steffon-website/static/media/SteffonV2-removebg-preview.af78e2266a25b4403323.png",
+    "static/media/Onlei_Choi-removebg-preview (1).png": "/Steffon-website/static/media/Onlei_Choi-removebg-preview (1).ca9493704e4126aac869.png",
+    "static/media/logo.svg": "/Steffon-website/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Steffon-website/index.html",
+    "main.3518b826.css.map": "/Steffon-website/static/css/main.3518b826.css.map",
+    "main.db58027a.js.map": "/Steffon-website/static/js/main.db58027a.js.map",
+    "787.4a15ce18.chunk.js.map": "/Steffon-website/static/js/787.4a15ce18.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3518b826.css",
+    "static/js/main.db58027a.js"
+  ]
+}
